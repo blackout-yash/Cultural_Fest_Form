@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+#form{
+    max-width: 60%;
+    background-color: white;
+    margin: auto;
+}
+
+
+.text_left{
+    text-align: left;
+}
+
+#container{
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 90px;
+}
+ 
+.logo{
+    width: 15%;
+    float: right;
+}
+
+.img_responsive{
+    width: 100%;
+}
+
+h1{
+    display: inline;
+    font-size: 40px;
+    font-weight: 550;
+    color: #161616;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+
+.float_container{
+    position: relative;
+}
+
+.float_text{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+}
+
+
+legend{
+    font-size: 22px;
+    font-weight: 550;
+    color: #161616;
+    padding: 1%;
+}
+
+.user_detail{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user_detail label{
+    font-size: 20px;
+}
+
+.user_input{
+    width: calc(100% / 2 - 20px);
+}
+
+.user_input input{
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+    border-bottom-width: 3px;
+}
+
+.margin{
+    margin: 2%;
+}
+
+.font{
+    font-size: 18px;
+}
+
+textarea {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-width: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    resize: vertical;
+}
+
+.button:hover input{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}

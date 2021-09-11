@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head lang = "en">
+    <title>Cultural Fest - 2021</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section id = "form">
+
+        <div id = "container">
+            <h1 class="text_left">Cultural Fest - 2021</h1>
+
+            <div class = "logo">
+                <img src = "Logo.jpeg" alt = "Logo" class = "img_responsive">
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+
+        <form action = "connect.php" method = "POST">
+            <fieldset class = "margin">
+                <legend>Basic Information</legend>
+                    <div class = "user_detail">
+
+                        <div class="user_input">
+                            <label for="name">Name: </label>
+                            <input type="text" id="name" name = "Name" required> <br><br>
+                        </div>
+
+                        <div class="user_input">
+                            <label for="roll_no">Roll no: </label>
+                            <input type="text" id="roll_no" name = "Roll_no" required> <br><br>
+                        </div>
+
+                        <div class="user_input">
+                            <label for="section">Section: </label>
+                            <input type="text" id="section" name = "Section" required> 
+                        </div>
+
+                        <div class="user_input">
+                            <label for="college">College/University: </label>
+                            <input type="text" id="college" name = "College_University" required> 
+                        </div>
+
+                </div>
+            </fieldset>
+
+            <fieldset class = "margin">
+                <legend>Contact Information</legend>
+                    <div class = "user_detail">
+
+                        <div class="user_input">
+                            <label for="number">Mobile No: </label>
+                            <input type="number" id="number" placeholder="+91" max="99999999999999" name = "Mobile_No" required>
+                        </div>
+
+                        <div class="user_input">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name = "Email" required>
+                        </div>
+
+                    </div>
+            </fieldset>
+
+            <fieldset class = "margin">
+                <legend>Other Information</legend>
+                    <div class = "user_detail">
+
+                        <div class="user_input">
+                            <label for="team_member">Team member:</label><br>
+                            <textarea cols="40" rows="5" placeholder="Min team members = 2
+Max team members = 4" id="team_member" class = "font" name = "Team_member" required></textarea><br><br>
+                        </div>
+
+                        <div class="user_input">
+                            <label for="description">Description:</label><br>
+                            <textarea cols="40" rows="5" placeholder="Enter description of your event..." id="description" class = "font" name = "Description" required></textarea><br><br>
+                        </div>
+
+                    
+                        <div class="user_input_1">
+                            <label>Participation:</label><br>
+                            <input type="radio" name="Participation" value = "Dance" style= "height: 16px ; width: 16px;" required> <label> Dance </label><br>
+                            <input type="radio" name="Participation" value = "Song" style= "height: 16px ; width: 16px"> <label> Song </label><br>
+                            <input type="radio" name="Participation" value = "Painting" style= "height: 16px ; width: 16px"> <label> Painting </label><br>
+                            <input type="radio" name="Participation" value = "Drama" style= "height: 16px ; width: 16px"> <label> Drama </label><br><br>
+                        </div>
+
+                </div>
+            </fieldset>
+
+
+            <div class = "user_detail">
+
+                <div class="user_input button">
+                    <input type="reset" value="Reset">
+                </div>
+    
+                <div class="user_input button">
+                    <input type="submit" value="Submit">
+                </div>
+    
+            </div>
+            
+        </form>
+    </section>
+</body>
+
+</html>
