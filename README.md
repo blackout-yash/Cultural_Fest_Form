@@ -1,3 +1,3 @@
-# CulturalFestForm.github.io
+#Cultural Fest Form
 
-Link - https://blackout-yash.github.io/CulturalFestForm.github.io/
+- Link - https://blackout-yash.github.io/Cultural_Fest_Form/
